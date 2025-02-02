@@ -1,0 +1,24 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+
+PackageIdentifier: w4po.ExplorerTabUtility
+PackageVersion: 3.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: ExplorerTabUtility\ExplorerTabUtility.exe
+  PortableCommandAlias: expltab
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.9
+    MinimumVersion: 9.0.0
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/w4po/ExplorerTabUtility/releases/download/v3.0.0/ExplorerTabUtility_v3.0.0_x64_Net9.0_FrameworkDependent.zip
+  InstallerSha256: B31F8DA0A02C89A06F4FB867543BDF6725A796200D65A4F6A6348E5A4A5FC60E
+- Architecture: x86
+  InstallerUrl: https://github.com/w4po/ExplorerTabUtility/releases/download/v3.0.0/ExplorerTabUtility_v3.0.0_x86_Net9.0_FrameworkDependent.zip
+  InstallerSha256: 720B63D65D3C3585FA33285F2748DCED8D323AA04D7676EB48CB79FCC23D0FCD
+ManifestType: installer
+ManifestVersion: 1.9.0
+ReleaseDate: 2025-02-01
