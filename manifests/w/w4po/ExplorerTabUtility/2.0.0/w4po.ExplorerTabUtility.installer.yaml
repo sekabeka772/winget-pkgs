@@ -8,6 +8,10 @@ NestedInstallerType: portable
 NestedInstallerFiles:
 - RelativeFilePath: ExplorerTabUtility\ExplorerTabUtility.exe
   PortableCommandAlias: expltab
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.DotNet.DesktopRuntime.9
+    MinimumVersion: 9.0.0
 Installers:
 - Architecture: x64
   InstallerUrl: https://github.com/w4po/ExplorerTabUtility/releases/download/v2.0.0/ExplorerTabUtility_v2.0.0_x64_Net9.0_FrameworkDependent.zip
@@ -15,6 +19,9 @@ Installers:
 - Architecture: x86
   InstallerUrl: https://github.com/w4po/ExplorerTabUtility/releases/download/v2.0.0/ExplorerTabUtility_v2.0.0_x86_Net9.0_FrameworkDependent.zip
   InstallerSha256: 720B63D65D3C3585FA33285F2748DCED8D323AA04D7676EB48CB79FCC23D0FCD
+- Architecture: arm64
+  InstallerUrl: https://github.com/w4po/ExplorerTabUtility/releases/download/v2.0.0/ExplorerTabUtility_v2.0.0_arm64_Net9.0_FrameworkDependent.zip
+  InstallerSha256: 720B63D65D3C3585FA33285F2748DCED8D323AA04D7676EB48CB79FCC23D0FCE
 ManifestType: installer
 ManifestVersion: 1.9.0
 ReleaseDate: 2025-02-01
