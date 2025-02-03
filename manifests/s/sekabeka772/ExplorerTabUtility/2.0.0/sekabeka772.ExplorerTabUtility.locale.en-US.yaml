@@ -1,0 +1,19 @@
+# Created using wingetcreate 1.9.4.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.9.0.schema.json
+
+PackageIdentifier: sekabeka772.ExplorerTabUtility
+PackageVersion: 2.0.0
+PackageLocale: en-US
+Publisher: sekabeka772
+PublisherUrl: https://github.com/sekabeka772
+PublisherSupportUrl: https://github.com/sekabeka772/ExplorerTabUtility/issues
+PackageName: ExplorerTabUtility
+PackageUrl: https://github.com/sekabeka772/ExplorerTabUtility
+License: MIT
+ShortDescription: Custom Description
+ReleaseNotesUrl: https://github.com/sekabeka772/ExplorerTabUtility/releases/tag/v2.0.0
+Documentations:
+- DocumentLabel: Wiki
+  DocumentUrl: https://github.com/sekabeka772/ExplorerTabUtility/wiki
+ManifestType: defaultLocale
+ManifestVersion: 1.9.0
